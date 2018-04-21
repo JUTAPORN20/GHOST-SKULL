@@ -23,7 +23,9 @@ This source code need following library to work properly
 # CREDIT
 - Character 
 - Img
-  - Story Game - https://www.pinterest.com/
+  - Story Game - [Pinteres](https://www.pinterest.com/), [Steam](https://steamcommunity.com/?l=thai)
+  
+                
 - Sound
   - https://www.playonloop.com/
   - https://www.youtube.com/
