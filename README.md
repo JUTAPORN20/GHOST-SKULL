@@ -16,3 +16,7 @@ This source code need following library to work properly
 - [Python 3.6](https://www.python.org/)
 
 - [Pygame](https://www.lfd.uci.edu/~gohlke/pythonlibs/#pygame)
+
+# HOW TO DOWNLOAD GAME
+- Click Clone Download
+
