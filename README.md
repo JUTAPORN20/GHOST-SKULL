@@ -24,7 +24,7 @@ This source code need following library to work properly
 - Character 
 - Img
   - Story Game - [Pinteres](https://www.pinterest.com/), [Steam](https://steamcommunity.com/?l=thai)
-  
+  - Background - www.stockunlimited.com
                 
 - Sound
   - https://www.playonloop.com/
