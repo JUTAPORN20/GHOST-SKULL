@@ -1,2 +1,3 @@
 # GHOST-SKULL
-PROJECT COM-SCI
+Principles of Computing - 204113 
+PROJECT COM-SCI GROUP 8
