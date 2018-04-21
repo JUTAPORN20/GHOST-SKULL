@@ -22,6 +22,7 @@ This source code need following library to work properly
 
 # CREDIT
 - Character 
+  - https://tanukitsune1.deviantart.com/art/Pixel-Pun-182-Skullduggery-74961344
 - Img
   - Story Game - [Pinteres](https://www.pinterest.com/) , [Steam](https://steamcommunity.com/?l=thai)
   - Background - www.stockunlimited.com , https://designdroide.com
