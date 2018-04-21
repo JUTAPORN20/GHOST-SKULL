@@ -20,3 +20,11 @@ This source code need following library to work properly
 # HOW TO DOWNLOAD GAME
 - Click Clone Download
 
+# CREDIT
+- Character 
+- Img
+  - Story Game - https://www.pinterest.com/
+- Sound
+  - https://www.playonloop.com/
+  - https://www.youtube.com/
+
