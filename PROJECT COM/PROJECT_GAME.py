@@ -8,6 +8,8 @@ width = 600
 height = 650
 center = (300,325)
 screen = pygame.display.set_mode((width, height))
+icon = pygame.image.load('icon.png')
+pygame.display.set_icon(icon)
 clock = pygame.time.Clock()
 ################################################
 menu_sound = False
@@ -158,9 +160,11 @@ def game():
         game_sound = pygame.mixer.Sound('Sound/POL-final-act-short.wav')
         game_sound.set_volume(.2)
         game_sound.play(loops = - 1)
-    
-    
+        
+    # PLAY GAME OVER SOUND 
     game_over_sound = False
+
+    # SET SILEN SOUND
     silen = pygame.mixer.Sound('Sound/silen.wav')
     silen.set_volume(.7)
     
@@ -390,19 +394,19 @@ def game():
             x1 = 155
             y1 = 0
 
-        if y2 > 415:
+        if y2 > 417:
             w2 = ''
             life -= 1
             x2 = 235
             y2 = 0
 
-        if y3 > 415:
+        if y3 > 419:
             w3 = ''
             life -= 1
             x3 = 355
             y3 = 0
 
-        if y4 > 415:
+        if y4 > 421:
             w4 = ''
             life -= 1
             x4 = 435
@@ -576,7 +580,7 @@ def credit_():
 ### GAME OVER ###
 def game_over():
     game_sound.stop()
-    global game_over_sound    
+    global game_over_sound,menu_sound  
     slide = 40
     game_over_pic = pygame.image.load('Pics/gameover.jpg')
     if not game_over_sound:
@@ -591,7 +595,8 @@ def game_over():
             if event.type == pygame.KEYDOWN:
                 if event.key == pygame.K_ESCAPE:
                     game_over_sound.stop()
-                    menu_sound.play()
+                    # SET PLAY MENU SOUND
+                    menu_sound = False
                     menu()
         if slide < 255:
             slide += 10
