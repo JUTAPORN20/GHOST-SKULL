@@ -153,12 +153,14 @@ def game():
     menu_sound.stop()
     intro()
     intro_sound.stop()
-    global game_sound 
+    global game_sound ,game_over_sound 
     if not game_sound :
         game_sound = pygame.mixer.Sound('Sound/POL-final-act-short.wav')
         game_sound.set_volume(.2)
         game_sound.play(loops = - 1)
-
+    
+    
+    game_over_sound = False
     silen = pygame.mixer.Sound('Sound/silen.wav')
     silen.set_volume(.7)
     
@@ -574,7 +576,7 @@ def credit_():
 ### GAME OVER ###
 def game_over():
     game_sound.stop()
-    global game_over_sound
+    global game_over_sound    
     slide = 40
     game_over_pic = pygame.image.load('Pics/gameover.jpg')
     if not game_over_sound:
@@ -602,7 +604,7 @@ def game_over():
     
 ### MENU GAME ###
 def menu():
-    global menu_sound
+    global menu_sound,game_sound 
     slide = 40
     if not menu_sound :
         menu_sound = pygame.mixer.Sound('Sound/POL-spirits-dance-short.wav')
@@ -610,6 +612,7 @@ def menu():
         menu_sound.play(loops=-1)
     Background = pygame.image.load('Pics/bg.jpg')
     while True:
+        game_sound = False
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 pygame.quit()
