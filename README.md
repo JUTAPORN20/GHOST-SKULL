@@ -19,6 +19,8 @@ This source code need following library to work properly
 
 # HOW TO DOWNLOAD GAME
 - Click Clone Download
+- Run PROJECT_GAME.py
+- Enjoy !!!
 
 # CREDIT
 - Character 
