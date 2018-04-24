@@ -21,6 +21,7 @@ This source code need following library to work properly
 - Click Clone Download
 - Run PROJECT_GAME.py
 - Enjoy !!!
+- Or Download file .zip --> [GHOST_SKULL.V.1.0](https://github.com/JUTAPORN20/GHOST-SKULL/releases/tag/1.0)
 
 # CREDIT
 - Character 
